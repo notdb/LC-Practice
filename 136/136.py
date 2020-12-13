@@ -22,7 +22,7 @@ def singleNumber(nums):
             del dict[i]
         else:
             dict[i] = 1
-    foo = dict.keys()[0]
+    foo = list(dict.keys())[0]
     return foo
 
 
