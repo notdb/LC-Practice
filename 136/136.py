@@ -9,12 +9,22 @@ Line ending fix
 
 """
 
+
 def singleNumber(nums):
-    
-    print([1,2,3,4])
+    """"""
+    dict = {}
+    print(nums)
+    for i in nums:
+        #print(i)
+      
+        if i in dict:
+           # print('yes')
+            del dict[i]
+        else:
+            dict[i] = 1
+    foo = dict.keys()[0]
+    return foo
 
 
-
-
-nums = [1,2,3,4]
-singleNumber(nums);
+nums = [1,1,2,2,3,3,4]
+singleNumber(nums)
