@@ -9,10 +9,38 @@
   (define somethingList (list 0))
   (for/list ([i stuff])
     (if (equal? (modulo i 2) 0)
-         (writeln (append somethingList (list i)))
-                null)))
+        (somethingList (list (append somethingList (list i))
+                             ))
+        (write somethingList))
+    )
+  )
 
 
 
 
-(showNum bigArray)
+;;(showNum bigArray)
+
+(define (addtolist list1)
+  (append list1 (list 1))
+  )
+
+(define list1 (list 1 2 3))
+
+;(addtolist list1)
+(define list2 (list 2))
+(define testList null)
+(define bigList (cons 1 (cons 2 '())))
+;;(write bigList)
+(define numberOne 1)
+;;(write numberOne)
+
+(define (theList list)
+  list)
+(theList (append list2 '(1 2 3)))
+
+
+
+;(cond [(equal? (modulo 4 2) 0)
+;      (write 'helloworld)]
+;      [(write 'nothelloworld)])
+  
