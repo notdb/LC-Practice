@@ -43,4 +43,15 @@
 ;(cond [(equal? (modulo 4 2) 0)
 ;      (write 'helloworld)]
 ;      [(write 'nothelloworld)])
-  
+
+(define bigHash (make-hash))
+(writeln bigHash)
+(writeln bigArray)
+
+(map (lambda (item)
+       (if (equal? (hash-ref bigHash item (writeln null)) 0)
+           (writeln item)
+           (hash-set! bigHash item 0)))
+     bigArray)
+(writeln bigHash)
+
