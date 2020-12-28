@@ -50,8 +50,19 @@
 
 (map (lambda (item)
        (if (equal? (hash-ref bigHash item (writeln null)) 0)
-           (writeln item)
+           (hash-set! bigHash item 1)
            (hash-set! bigHash item 0)))
      bigArray)
 (writeln bigHash)
 
+;; Figure out how to iterate through this list using foldl
+(define anotherList (hash->list bigHash))
+(writeln 'hello)
+(writeln bigHash)
+(writeln anotherList)
+(foldl (lambda (hash foo)
+         (if (equal? (cdr hash) 0)
+             (+ foo (car hash))
+             (+ 0 foo)))
+       0
+       anotherList)
