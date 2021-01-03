@@ -10,7 +10,7 @@ begin
 	   Put (N); -- Put an Integer
 	   Put_Line (" is a positive number");
 	else
-	   Put_Line (" is not a positive number");
+	   Put_Line (" is not a positive numbers");
 	end if;
 end Check_Positive;
 
