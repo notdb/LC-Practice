@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__greet.o
+[PROJECT FILES]
+C:\GNAT\2020\share\gpr\_default.gpr
+20200228061840 40a7f79520b2f351d19dc3bc0d42bc92
+[BOUND OBJECT FILES]
+D:\coding\LC-Practice\136\ada\\greet.o
+[GENERATED SOURCE FILES]
+b__greet.ads
+b__greet.adb
+b__greet.ali
+[RESULTING OPTIONS]
+-LD:\coding\LC-Practice\136\ada\
+-LD:\coding\LC-Practice\136\ada\\
+-LC:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
