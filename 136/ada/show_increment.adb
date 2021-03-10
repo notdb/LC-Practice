@@ -8,7 +8,7 @@ begin
    --              ^ Parameterless call, value of I is 0
    --                and Incr is 1
 
-   Put_Line ("Using defaults for Increment_By is " & Integer'Image (C));
+   Put_Line ("Using defaults for Increment_By is " & Integer'Image (C));        
 
    A := 10;
    B := 3;
@@ -27,3 +27,5 @@ begin
 
    Put_Line ("Increment of " & Integer'Image (A)
    	     & " with "      & Integer'Image (B)
+	     & " is "        & Integer'Image (C));
+end Show_Increment;
