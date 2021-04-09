@@ -10,8 +10,8 @@ begin
    declare
       S : String :=
         (if N > 0 then " is a positive number"
-	 else " is not a positive number");
-   begin
-      Put_Line (S);
-   end;
-end Check_Positive2;
+	else " is not a positive number");
+	begin
+	   Put_Line (S);
+	end;
+	end Check_Positive2;
