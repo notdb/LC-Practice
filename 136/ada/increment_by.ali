@@ -1,0 +1,16 @@
+V "GNAT Lib v2020"
+P ZX
+
+RN
+
+U increment_by%b	increment_by.adb	05d027ed NE OO SU
+
+D increment_by.adb	20210113135920 05d027ed increment_by%b
+D system.ads		20200228061810 32a08138 system%s
+G a e
+G c Z b b [increment_by standard 1 10 none]
+X 1 increment_by.adb
+1V10*Increment_By{integer} 1b10 2>6 3>6 7l5 7t17
+2i6 I{integer} 6r12
+3i6 Incr{integer} 6r16
+
